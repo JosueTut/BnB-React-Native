@@ -93,7 +93,7 @@ const TaskList = () => {
       borderRadius: 10,
       backgroundColor: '#e5e7eb',
       borderColor: '#9ca3af',
-      borderWidth: 1
+      borderWidth: 1,
       
     },
     info: {
