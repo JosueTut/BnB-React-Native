@@ -53,7 +53,6 @@ function MyTabs() {
                     tabBarLabel: 'TaskList',
                     tabBarIcon: ({ color, size}) => (
                         <MaterialCommunityIcons name="clipboard-text-outline" size={24} color="black" />                    ),
-                    tabBarBadge: 1,
                     headerShown: false
                 }}
                 
@@ -67,7 +66,6 @@ function MyTabs() {
                     tabBarIcon: ({ color, size}) => (
                         <MaterialIcons name="add-shopping-cart" size={24} color="black" />
                     ),
-                    tabBarBadge: '+9',
                     headerShown: false
                 }}
             />
@@ -90,7 +88,6 @@ function MyTabs() {
                     tabBarIcon: ({ color, size}) => (                        
                         <AntDesign name="team" size={24} color="black" />                        
                     ),
-                    tabBarBadge: 3,
                     headerShown: false
                 }}
             />
